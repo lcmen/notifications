@@ -20,7 +20,7 @@ defmodule Notifications.MixProject do
 
   defp deps do
     [
-      {:ecto_sql, "~> 3.7"},
+      {:ecto_sql, github: "elixir-ecto/ecto_sql", branch: "master"},
       {:postgrex, "~> 0.15"}
     ]
   end
